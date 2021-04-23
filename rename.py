@@ -1,14 +1,25 @@
 import os
 
-file_path = "C:/Users/JT/annotation-tool/Images/"
-folder_names = os.listdir(file_path)
+path = 'Images/001/'
+name = ''
+counter = 1
+for f in os.listdir(path):
+    suffix = f.split('.')[-1]
+    #if suffix == 'jpg' or suffix == 'png' or suffix == 'JPG'or suffix == 'jpeg':
+    if suffix == 'JPG':
+        new = '{}.{}'.format(name+str(counter), 'jpg')
+        os.rename(path + f, path + new)
+        counter = int(counter) + 1
 
-for folder_name in folder_names:
-    path = file_path + folder_name
-    file_names = os.listdir(path)
-
-    for idx, name in enumerate(file_names, 1):
-        scr = os.path.join(path, name)
-        dst = str(idx) + '.jpg'
-        dst = os.path.join(path, dst)
-        os.rename(scr, dst)
+"""
+tomato_bacterial/
+tomato_curl_virus/
+tomato_eb/
+tomato_healthy/
+tomato_lb/
+tomato_leaf_mold/
+tomato_mosaic_virus/
+tomato_septoria_leaf/
+tomato_spider_mite/
+tomato_target_spot/
+"""

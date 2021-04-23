@@ -4,7 +4,7 @@ import os
 from os import walk, getcwd
 from PIL import Image
 
-CLASSES = ["001"]
+CLASSES = ["100"]
 
 def convert(size, box):
     dw = 1./size[0]
@@ -36,7 +36,7 @@ def gen(cls):
     for (dirpath, dirnames, filenames) in walk(mypath):
         txt_name_list.extend(filenames)
         break
-    # print(txt_name_list)
+    # print(len(txt_name_list))
 
     """ Process """
     for txt_name in txt_name_list:
@@ -73,7 +73,10 @@ def gen(cls):
                 ymax = elems[3]
                 print(elems[0])
                 #
-                img_path = str('%s/Images/%s/%s.jpg'%(wd, cls, os.path.splitext(txt_name)[0]))
+                if not os.path.exists('%s/Images/%s/%s.jpg'%(wd, cls, os.path.splitext(txt_name)[0])):
+                    img_path = str('%s/Images/%s/%s.JPG'%(wd, cls, os.path.splitext(txt_name)[0]))
+                else:
+                    img_path = str('%s/Images/%s/%s.jpg'%(wd, cls, os.path.splitext(txt_name)[0]))
                 #t = magic.from_file(img_path)
                 #wh= re.search('(\d+) x (\d+)', t).groups()
                 im=Image.open(img_path)
