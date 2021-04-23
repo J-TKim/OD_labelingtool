@@ -1,0 +1,162 @@
+{
+	"1.jpg50451": {
+		"filename": "1.jpg",
+		"size": 50451,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 45,
+					"y": 39,
+					"width": 160,
+					"height": 214
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"10.jpg50373": {
+		"filename": "10.jpg",
+		"size": 50373,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 91,
+					"y": 16,
+					"width": 199,
+					"height": 163
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"2.jpg50625": {
+		"filename": "2.jpg",
+		"size": 50625,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 75,
+					"y": 44,
+					"width": 156,
+					"height": 168
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"3.jpg50414": {
+		"filename": "3.jpg",
+		"size": 50414,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 118,
+					"y": 35,
+					"width": 199,
+					"height": 152
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"4.jpg50388": {
+		"filename": "4.jpg",
+		"size": 50388,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 58,
+					"y": 43,
+					"width": 142,
+					"height": 156
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"5.jpg50292": {
+		"filename": "5.jpg",
+		"size": 50292,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 57,
+					"y": 40,
+					"width": 152,
+					"height": 172
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"6.jpg50625": {
+		"filename": "6.jpg",
+		"size": 50625,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 65,
+					"y": 35,
+					"width": 167,
+					"height": 193
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"7.jpg50196": {
+		"filename": "7.jpg",
+		"size": 50196,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 43,
+					"y": 75,
+					"width": 152,
+					"height": 216
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"8.jpg50400": {
+		"filename": "8.jpg",
+		"size": 50400,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 162,
+					"y": 11,
+					"width": 231,
+					"height": 102
+				},
+				"region_attributes": {}
+			}
+		]
+	},
+	"9.jpg50264": {
+		"filename": "9.jpg",
+		"size": 50264,
+		"regions": [
+			{
+				"shape_attributes": {
+					"name": "rect",
+					"x": 74,
+					"y": 51,
+					"width": 145,
+					"height": 162
+				},
+				"region_attributes": {}
+			}
+		]
+	}
+}
